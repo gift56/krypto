@@ -39,4 +39,4 @@ export const cryptoSliderData = [
   },
 ];
 
-export const 
+export const featureData=
