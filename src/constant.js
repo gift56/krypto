@@ -84,4 +84,4 @@ export const testimonyData = [
   },
 ];
 
-export const 
+export const analysisData
