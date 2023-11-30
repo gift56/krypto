@@ -44,4 +44,24 @@ export const featureData = [
     icon: "/icon/trophyIcon.png",
     title: "Weekly Trading Contest",
   },
+  {
+    icon: "/icon/walletIcon.png",
+    title: "Less Commission On Trade",
+  },
+  {
+    icon: "/icon/lockIcon.png",
+    title: "Safe And Secure Trading platform",
+  },
+  {
+    icon: "/icon/dollarIcon.png",
+    title: "Copy Instant Withdraw Process",
+  },
+  {
+    icon: "/icon/trophyIcon.png",
+    title: "Weekly Trading Contest",
+  },
+  {
+    icon: "/icon/trophyIcon.png",
+    title: "Weekly Trading Contest",
+  },
 ];
