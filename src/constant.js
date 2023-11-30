@@ -94,11 +94,11 @@ export const analysisData = [
     headline: "Gain the best exchange",
   },
   {
-    image: "",
+    image: "/img/image3.png",
     headline: "Reduce your loosing",
   },
   {
-    image: "",
+    image: "/img/image4.png",
     headline: "Win 50-50 trading strategy",
   },
 ];
