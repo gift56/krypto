@@ -41,6 +41,6 @@ export const cryptoSliderData = [
 
 export const featureData = [
   {
-    icon: "",
+    icon: "/icon/",
   },
 ];
