@@ -65,3 +65,21 @@ export const featureData = [
     title: "24/7 Support Team",
   },
 ];
+
+export const testimonyData = [
+  {
+    username: "Cameron Williamson",
+    profession: "FX Trader",
+    userImage: "",
+  },
+  {
+    username: "Bessie Cooper",
+    profession: "Stock Manager",
+    userImage: "",
+  },
+  {
+    username: "Albert Flores",
+    profession: "Crypto Analyst",
+    userImage: "",
+  },
+];
