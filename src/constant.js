@@ -41,6 +41,7 @@ export const cryptoSliderData = [
 
 export const featureData = [
   {
-    icon: "/icon/",
+    icon: "/icon/trophyIcon.png",
+    title: "Weekly Trading Contest",
   },
 ];
