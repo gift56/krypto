@@ -84,4 +84,8 @@ export const testimonyData = [
   },
 ];
 
-export const analysisData = [];
+export const analysisData = [
+  {
+    image: "",
+  },
+];
