@@ -86,7 +86,7 @@ export const testimonyData = [
 
 export const analysisData = [
   {
-    image: "",
+    image: "/img/image1.png",
     headline: "How to trade Bitcoin",
   },
   {
