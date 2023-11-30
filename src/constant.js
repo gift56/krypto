@@ -90,7 +90,7 @@ export const analysisData = [
     headline: "How to trade Bitcoin",
   },
   {
-    image: "",
+    image: "/img/image2.png",
     headline: "Gain the best exchange",
   },
   {
