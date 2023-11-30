@@ -38,3 +38,5 @@ export const cryptoSliderData = [
     title: "Ethereum",
   },
 ];
+
+export const 
