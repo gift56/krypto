@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         herobg: "url(./public/img/heroBg.png)",
+        advancebg: "url(./public/img/advanceBg.png)",
       },
     },
   },
