@@ -16,3 +16,25 @@ export const heroCoins = [
     text: "Siacoin",
   },
 ];
+
+export const stepsData = [
+  "Create an account",
+  "Download platfrom",
+  "Select crypto",
+  "Start trading",
+];
+
+export const cryptoSliderData = [
+  {
+    headImage: "/img/bitcoinImage.png",
+    title: "Bitcoin",
+  },
+  {
+    headImage: "/img/litecoinImage.png",
+    title: "Litecoin",
+  },
+  {
+    headImage: "/img/etheriumImage.png",
+    title: "Ethereum",
+  },
+];
