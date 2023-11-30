@@ -87,6 +87,18 @@ export const testimonyData = [
 export const analysisData = [
   {
     image: "",
-    headline: "",
+    headline: "How to trade Bitcoin",
+  },
+  {
+    image: "",
+    headline: "Gain the best exchange",
+  },
+  {
+    image: "",
+    headline: "Reduce your loosing",
+  },
+  {
+    image: "",
+    headline: "Win 50-50 trading strategy",
   },
 ];
