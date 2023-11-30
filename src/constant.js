@@ -57,11 +57,11 @@ export const featureData = [
     title: "Copy Instant Withdraw Process",
   },
   {
-    icon: "/icon/trophyIcon.png",
-    title: "Weekly Trading Contest",
+    icon: "/icon/eventIcon.png",
+    title: "Monthly Commition",
   },
   {
-    icon: "/icon/trophyIcon.png",
-    title: "Weekly Trading Contest",
+    icon: "/icon/contactIcon.png",
+    title: "24/7 Support Team",
   },
 ];
