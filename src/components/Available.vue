@@ -24,7 +24,7 @@
             <div
               class="bg-white w-full flex flex-col items-start justify-start gap-10 p-3"
             >
-              <h3 class="text-xl font-medium text-bodybg"></h3>
+              <h3 class="text-xl font-medium text-bodybg md:text-2xl"></h3>
             </div>
           </div>
         </div>
