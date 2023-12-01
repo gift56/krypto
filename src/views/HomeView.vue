@@ -6,8 +6,8 @@ import Available from "../components/Available.vue";
 import Feature from "../components/Feature.vue";
 import Advance from "../components/Advance.vue";
 import Testimony from "../components/Testimony.vue";
-import Footer from "../components/Footer.vue";
 import Crypto from "../components/Crypto.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
