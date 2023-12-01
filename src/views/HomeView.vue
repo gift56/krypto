@@ -14,7 +14,7 @@ import Footer from "../components/Footer.vue";
     <How />
     <Available />
     <Feature />
-    
+    <
   </main>
   <Footer />
 </template>
