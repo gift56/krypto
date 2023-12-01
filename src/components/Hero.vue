@@ -15,7 +15,20 @@
         <div>
           <CountdownTimer targetTime="2023-12-17T23:59:59" />
         </div>
-
+        <div class="flex items-center justify-center gap-4">
+          <button
+            type="button"
+            class="rounded-full w-fit px-6 py-4 outline-none border-2 border-primary text-white bg-primary text-base font-bold uppercase hover:bg-primary/60 transition-all duration-300"
+          >
+            Download app
+          </button>
+          <button
+            type="button"
+            class="rounded-full w-fit px-6 py-4 outline-none border-2 border-primary text-white bg-primary text-base font-bold uppercase hover:bg-primary/60 transition-all duration-300"
+          >
+            Trade crypto
+          </button>
+        </div>
       </div>
     </div>
   </section>
