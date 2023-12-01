@@ -14,9 +14,18 @@
             Tincidunt id nibh orci nibh just nulla elementum, sed vel.
           </p>
         </div>
-        <div class="w-full grid grid-cols-1 items-start justify-start gap-5">
-          <div class="w-full flex flex-col items-start justify-start rounded-xl overflow-hidden">
-            <img src="" alt="">
+        <div
+          class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start justify-start gap-5"
+        >
+          <div
+            class="w-full flex flex-col items-start justify-start rounded-xl overflow-hidden"
+          >
+            <img src="" alt="" />
+            <div
+              class="bg-white w-full flex flex-col items-start justify-start gap-10 p-3"
+            >
+              <h3 class="text-xl font-medium text-bodybg"></h3>
+            </div>
           </div>
         </div>
       </div>
