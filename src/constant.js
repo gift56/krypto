@@ -37,6 +37,18 @@ export const cryptoSliderData = [
     headImage: "/img/etheriumImage.png",
     title: "Ethereum",
   },
+  {
+    headImage: "/img/bitcoinImage.png",
+    title: "Bitcoin",
+  },
+  {
+    headImage: "/img/litecoinImage.png",
+    title: "Litecoin",
+  },
+  {
+    headImage: "/img/etheriumImage.png",
+    title: "Ethereum",
+  },
 ];
 
 export const featureData = [
