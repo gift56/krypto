@@ -24,7 +24,7 @@
             alt="flag"
             class="w-4 h-4 object-cover rounded-full"
           />
-          <i></i>
+          <i class="fa-solid fa-chevron-down"></i>
         </div>
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
