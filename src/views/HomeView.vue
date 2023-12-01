@@ -7,6 +7,7 @@ import Feature from "../components/Feature.vue";
 import Advance from "../components/Advance.vue";
 import Testimony from "../components/Testimony.vue";
 import Footer from "../components/Footer.vue";
+import Crypto from "../components/Crypto.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import Footer from "../components/Footer.vue";
     <Feature />
     <Advance />
     <Testimony />
+    <Crypto />
   </main>
   <Footer />
 </template>
