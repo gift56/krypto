@@ -5,6 +5,7 @@ import How from "../components/How.vue";
 import Available from "../components/Available.vue";
 import Feature from "../components/Feature.vue";
 import Footer from "../components/Footer.vue";
+import Advance from "../components/Advance.vue";
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import Footer from "../components/Footer.vue";
     <How />
     <Available />
     <Feature />
-    <Advance
+    <Advance />
   </main>
   <Footer />
 </template>
