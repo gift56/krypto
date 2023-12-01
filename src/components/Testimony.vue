@@ -38,7 +38,7 @@
             class="mySwiper"
             ref="swiper"
           >
-            <swiper-slide v-for="(item, index) in cryptoSliderData">
+            <swiper-slide v-for="(item, index) in testimonyData">
               <div
                 :key="index"
                 class="w-full flex flex-col items-start justify-start rounded-xl overflow-hidden"
@@ -88,12 +88,12 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import { cryptoSliderData } from "../constant";
+import { testimonyData } from "../constant";
 
 export default {
   data() {
     return {
-      cryptoSliderData,
+      testimonyData,
       isMobile: false,
       isTablet: false,
     };
