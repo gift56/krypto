@@ -10,3 +10,6 @@
 body {
   @apply bg-bodybg text-white;
 }
+.container {
+  @apply w-[90%] md:w-[80%] mx-auto;
+}
