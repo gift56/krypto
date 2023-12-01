@@ -14,6 +14,9 @@
             Tincidunt id nibh orci nibh just nulla elementum, sed vel.
           </p>
         </div>
+        <div class="w-full grid grid-cols-1 items-start justify-start gap-5">
+          <div class="w-full flex flex-col items-start justify-start"></div>
+        </div>
       </div>
     </div>
   </section>
