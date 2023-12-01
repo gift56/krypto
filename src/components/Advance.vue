@@ -4,9 +4,7 @@
   >
     <div class="container h-full flex items-center justify-center relative">
       <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
-        <h1
-          class="text-3xl font-bold text-center md:text-5xl lg:text-7xl xl:text-[80px] xl:leading-[normal] xl:max-w-[730px]"
-        >
+        <h1 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
           Next Generation Crypto Trading
         </h1>
         <p class="text-lg font-normal text-center">Crypto Market Starts in</p>
