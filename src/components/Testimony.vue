@@ -44,12 +44,21 @@
                 class="w-full flex flex-col gap-8 items-center justify-center px-4 py-4 border border-primary shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 rounded-xl h-[450px] overflow-hidden"
               >
                 <img src="/icon/quotesIcon.png" alt="quotes" />
-                <p class="text-base text-white/50 font-normal md:text-lg text-center">
+                <p
+                  class="text-base text-white/50 font-normal md:text-lg text-center"
+                >
                   Tincidunt id nibh orci nibh justo. Purus et turpis nulla
                   elementum, sed vel.
                 </p>
-                <div class="w-full flex flex-col items-center justify-center text-center">
-                  <img :src="item.userImage" :alt="item.profession">
+                <div
+                  class="w-full flex flex-col items-center justify-center text-center"
+                >
+                  <img
+                    :src="item.userImage"
+                    :alt="item.profession"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <h4 class="">{{ item.profession }}</h4>
                 </div>
               </div>
             </swiper-slide>
