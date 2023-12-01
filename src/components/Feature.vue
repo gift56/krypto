@@ -19,7 +19,7 @@
         >
           <div class="w-full flex flex-col items-start justify-start gap-3">
             <div class="flex items-center justify-start gap-3">
-              
+              <img src="" alt="">
             </div>
           </div>
         </div>
