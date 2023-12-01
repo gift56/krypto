@@ -11,7 +11,8 @@
           <p
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
           >
-            Tincidunt id nibh orci nibh just nulla elementum, sed vel.
+            Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum,
+            sed vel.
           </p>
         </div>
         <div class="w-full">
