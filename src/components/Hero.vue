@@ -46,7 +46,7 @@
           </div>
         </div>
       </div>
-      <img src="/img/btcImage" alt="bitcoin">
+      <img src="/img/btcImage.png" alt="bitcoin">
     </div>
   </section>
 </template>
