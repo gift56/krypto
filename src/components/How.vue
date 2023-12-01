@@ -28,9 +28,9 @@
             </h3>
             <div class="flex flex-col items-start justify-start gap-6 w-full">
               <div
-                class="w-full md:w-[284px] h-[66px] flex items-center justify-start gap-4 bg-bodybg shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 cursor-pointer rounded-full"
+                class="w-full md:w-[284px] h-[66px] flex items-center justify-start gap-4 bg-bodybg shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 cursor-pointer rounded-full select-none"
               >
-                <span></span>
+                <span class="w-10 h-10 bg-primary text-bodybg text-base font-medium uppercase"></span>
               </div>
             </div>
           </div>
