@@ -41,7 +41,7 @@
               opacity: 1,
               y: 0,
               transition: {
-                delay: 100,
+                delay: 200,
               },
             }"
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"

@@ -20,10 +20,30 @@
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
       >
         <div class="w-full flex flex-col items-center justify-center gap-4">
-          <h2 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
+          <h2
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 100,
+              },
+            }"
+            class="text-2xl font-bold text-center md:text-5xl lg:text-6xl"
+          >
             Crypto Market Analysis
           </h2>
           <p
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 200,
+              },
+            }"
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
           >
             Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum,
@@ -35,10 +55,20 @@
         >
           <div
             v-for="(analysis, index) in analysisData"
+            :key="index"
+            v-motion
+            :initial="{ opacity: 0, scale: 0, y: 150 }"
+            :visible="{
+              opacity: 1,
+              scale: 1,
+              y: 0,
+              transition: {
+                delay: 150 * index,
+              },
+            }"
             class="w-full flex flex-col items-start justify-start gap-3"
           >
             <div
-              :key="index"
               class="flex flex-col lg:flex-row items-start justify-start gap-5"
             >
               <img
