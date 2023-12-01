@@ -2,4 +2,4 @@
   <section>Testimony</section>
 </template>
 
-<script></script>
+<script setup></script>
