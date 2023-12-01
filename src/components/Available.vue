@@ -16,28 +16,29 @@
         </div>
         <div class="w-full">
           <div
-            class="custom-prev' w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 left-[2%] top-[50%] cursor-pointer"
+            class="custom-prev w-12 h-12 hidden md:flex items-center justify-center rounded-full bg-primary/30 absolute z-10 left-[2%] top-[50%] cursor-pointer"
             @click="goPrev"
           >
             <i class="fas fa-chevron-left"></i>
           </div>
 
           <swiper
-            :slidesPerView="isMobile ? 1 : 3"
+            :slidesPerView="getSlidesPerView()"
             :navigation="{
               prevEl: '.custom-prev',
               nextEl: '.custom-next',
             }"
-            :spaceBetween="30"
+            :spaceBetween="getSpaceBetween()"
             :modules="modules"
             class="mySwiper"
+            ref="swiper"
           >
             <swiper-slide v-for="(item, index) in cryptoSliderData">
               <div
                 :key="index"
                 class="w-full flex flex-col items-start justify-start rounded-xl overflow-hidden"
               >
-                <img :src="item.headImage" :alt="item.title" />
+                <img :src="item.headImage" :alt="item.title" class="w-full" />
                 <div
                   class="bg-white w-full flex flex-col items-start justify-start gap-10 p-3"
                 >
@@ -66,7 +67,7 @@
             </swiper-slide>
           </swiper>
           <div
-          class="custom-next w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 right-[2%] top-[50%] cursor-pointer"
+            class="custom-next w-12 h-12 hidden md:flex items-center justify-center rounded-full bg-primary/30 absolute z-10 right-[2%] top-[50%] cursor-pointer"
             @click="goNext"
           >
             <i class="fas fa-chevron-right"></i>
@@ -89,6 +90,7 @@ export default {
     return {
       cryptoSliderData,
       isMobile: false,
+      isTablet: false,
     };
   },
   components: {
@@ -101,16 +103,30 @@ export default {
     };
   },
   mounted() {
-    // Check if the device is mobile
-    this.isMobile = window.innerWidth <= 768;
+    // Check if the device is mobile or tablet
+    this.updateDeviceType();
 
-    // Listen for window resize events to update the isMobile variable
-    window.addEventListener("resize", this.updateIsMobile);
+    // Listen for window resize events to update the device type
+    window.addEventListener("resize", this.updateDeviceType);
   },
   methods: {
     // Method to update the isMobile variable on window resize
-    updateIsMobile() {
-      this.isMobile = window.innerWidth <= 768;
+    updateDeviceType() {
+      this.isMobile = window.innerWidth <= 640;
+      this.isTablet = window.innerWidth <= 1024 && window.innerWidth > 640;
+    },
+
+    getSlidesPerView() {
+      if (this.isMobile) {
+        return 1;
+      } else if (this.isTablet) {
+        return 2;
+      } else {
+        return 3;
+      }
+    },
+    getSpaceBetween() {
+      return this.isMobile ? 10 : 30;
     },
   },
 };
