@@ -29,6 +29,9 @@
             Trade crypto
           </button>
         </div>
+        <div class="w-full flex flex-col items-center justify-center gap-3">
+          
+        </div>
       </div>
     </div>
   </section>
