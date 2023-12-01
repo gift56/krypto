@@ -1,5 +1,5 @@
 <template>
-  <section id="university">Crypto</section>
+  <section id="university" class="w-full relative">Crypto</section>
 </template>
 
 <script>
