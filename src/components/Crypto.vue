@@ -1,8 +1,7 @@
 <template>
-    <section>Crypto</section>
-  </template>
-  
-  <script>
-  export default {};
-  </script>
-  
+  <section id="university">Crypto</section>
+</template>
+
+<script>
+export default {};
+</script>
