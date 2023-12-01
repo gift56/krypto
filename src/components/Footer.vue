@@ -62,8 +62,8 @@
               <div
                 class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2"
               >
-            <input type="text">
-            </div>
+                <input type="email" placeholder="Enter your email" required />
+              </div>
               <p class="text-sm font-normal text-white/60">
                 {{ `We don’t sell your email and spam` }}
               </p>
