@@ -28,14 +28,17 @@
             </h3>
             <div class="flex flex-col items-start justify-start gap-6 w-full">
               <div
+                v-for="(step, index) in stepsData"
+                :key="index"
                 class="w-full md:w-[284px] h-[66px] flex items-center justify-start gap-4 bg-bodybg shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 cursor-pointer rounded-full select-none px-4"
               >
                 <span
-                  class="w-10 h-10 bg-primary text-bodybg text-base font-medium uppercase rounded-full"
-                ></span>
-                <span
-                  class="text-base font-medium md:text-lg text-primary"
-                ></span>
+                  class="w-10 h-10 flex items-center justify-center bg-primary text-bodybg text-base font-medium uppercase rounded-full"
+                  >0{{ index + 1 }}</span
+                >
+                <span class="text-base font-medium md:text-lg text-primary">{{
+                  step
+                }}</span>
               </div>
             </div>
           </div>
@@ -45,4 +48,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { stepsData } from "../constant";
+</script>
