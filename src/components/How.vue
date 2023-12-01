@@ -12,6 +12,12 @@
             Tincidunt id nibh orci nibh just nulla elementum, sed vel.
           </p>
         </div>
+        <div class="w-full flex flex-col items-center justify-center gap-6">
+          <div class="w-full md:flex-1">
+            <img src="/img/howImage.png" alt="how" class="h-[500px]">
+          </div>
+          <div class="w-full md:flex-1"></div>
+        </div>
       </div>
     </div>
   </section>
