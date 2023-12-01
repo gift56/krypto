@@ -16,7 +16,7 @@
           </p>
         </div>
         <div
-          class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-x-4 gap-y-8"
+          class="w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-x-4 gap-y-8"
         >
           <div
             v-for="(feature, index) in featureData"
