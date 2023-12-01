@@ -6,7 +6,7 @@
           <h2 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
             How to Trade With Krypto
           </h2>
-          <p class="">Tincidunt id nibh orci nibh just nulla elementum, sed vel.</p>
+          <p class="text-lg font-normal text-center">Tincidunt id nibh orci nibh just nulla elementum, sed vel.</p>
         </div>
       </div>
     </div>
