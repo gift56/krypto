@@ -31,6 +31,11 @@
                 <h3 class="text-xl font-medium md:text-2xl">
                   {{ analysis.headline }}
                 </h3>
+                <p class="text-base md:text-lg font-normal text-white/50">
+                  Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat
+                  et ornare risus.
+                </p>
+                <RouterLink to="/" class="text-base md:text-lg font-normal text-primary">Learn more</RouterLink>
               </div>
             </div>
           </div>
