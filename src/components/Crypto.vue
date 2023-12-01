@@ -35,11 +35,16 @@
                   Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat
                   et ornare risus.
                 </p>
-                <RouterLink to="/" class="text-base md:text-lg font-normal text-primary">Learn more</RouterLink>
+                <RouterLink
+                  to="/"
+                  class="text-base md:text-lg font-normal text-primary"
+                  >Learn more</RouterLink
+                >
               </div>
             </div>
           </div>
         </div>
+        <button>Enroll crypto University</button>
       </div>
     </div>
   </section>
