@@ -82,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full mt-7 flex flex-wrap gap-4 md:flex-nowrap items-center justify-between">
+      <div class="w-full mt-7 flex flex-wrap gap-4 md:flex-nowrap items-center justify-center md:justify-between">
 
       </div>
     </div>
