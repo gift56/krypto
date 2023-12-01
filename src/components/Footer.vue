@@ -5,7 +5,7 @@
 <script setup>
 const links = [
   { to: "#how", text: "How it works" },
-  { to: "#how", text: "How it works" },
+  { to: "#how", text: "Cryptos" },
 ];
 const termlinks = [
   "CoinFlip Privacy Policy",
