@@ -11,7 +11,7 @@ const links = [
 ];
 const termlinks = [
   "Terms of use",
-  "CoinFlip Biometrics Privacy Policy",
+  "Terms of conditions",
   "CoinFlip Financial Privacy Notice",
   "CoinFlip Terms of Service",
   "CoinFlip Trade Desk Terms of Service",
