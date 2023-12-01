@@ -16,7 +16,11 @@
             >{{ link.text }}</RouterLink
           >
         </nav>
-        <div class="hidden lg:flex items-center justify-start gap-6"></div>
+        <div
+          class="hidden lg:flex items-center justify-center gap-6 w-fit h-10 border-2 border-primary px-2"
+        >
+          <img src="/flagImage.png" alt="flag" />
+        </div>
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
         </span>
