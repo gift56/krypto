@@ -14,6 +14,6 @@ const termlinks = [
   "Terms of conditions",
   "Privecy policy",
   "Cookie policy",
-  "CoinFlip Trade Desk Terms of Service",
+  
 ];
 </script>
