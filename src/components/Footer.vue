@@ -21,7 +21,7 @@
           <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
             Company
           </h3>
-          <ul class="w-full flex flex-col items-start justify-start gap-4">
+          <nav class="w-full flex flex-col items-start justify-start gap-4">
             <li
               v-for="(text, index) in links"
               :key="index"
@@ -29,7 +29,7 @@
             >
               {{ text.text }}
             </li>
-          </ul>
+          </nav>
         </div>
       </div>
     </div>
