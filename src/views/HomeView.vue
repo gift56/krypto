@@ -4,8 +4,8 @@ import Hero from "../components/Hero.vue";
 import How from "../components/How.vue";
 import Available from "../components/Available.vue";
 import Feature from "../components/Feature.vue";
-import Footer from "../components/Footer.vue";
 import Advance from "../components/Advance.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
