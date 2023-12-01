@@ -4,7 +4,9 @@
       <div
         class="w-full py-20 flex flex-col items-start justify-between md:flex-row gap-8"
       >
-        <div class="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
+        <div
+          class="w-full lg:w-[48%] flex flex-col items-start justify-start gap-6"
+        >
           <RouterLink to="/">
             <h2 class="select-none text-center text-2xl font-bold text-primary">
               Krypto
@@ -16,7 +18,7 @@
           </p>
         </div>
         <div class="w-full flex flex-col gap-6 lg:flex-row items-start">
-          <div class="w-full flex flex-col items-start justify-start gap-6">
+          <div class="w-full md:w-[60%] flex flex-col items-start justify-start gap-6">
             <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
               Company
             </h3>
@@ -31,7 +33,9 @@
               </RouterLink>
             </nav>
           </div>
-          <div class="w-full flex flex-col items-start justify-start gap-6">
+          <div
+            class="w-full md:w-[60%] flex flex-col items-start justify-start gap-6"
+          >
             <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
               Legal
             </h3>
@@ -50,7 +54,12 @@
               Newsletter
             </h3>
             <div class="flex flex-col items-start justify-start w-full gap-3">
-              <p class="text-sm md:text-base text-white/50">Over 25000 people have subscribed</p>
+              <p class="text-sm md:text-base text-white/50">
+                Over 25000 people have subscribed
+              </p>
+              <div class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2">
+
+              </div>
             </div>
           </div>
         </div>
