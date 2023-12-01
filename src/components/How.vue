@@ -1,8 +1,8 @@
 <template>
   <section class="w-full">
     <div class="container relative">
-      <div class="w-full py-14 flex flex-col items-center justify-center gap-6">
-        
+      <div class="w-full py-14 flex flex-col items-center justify-center gap-8">
+
       </div>
     </div>
   </section>
