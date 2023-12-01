@@ -41,7 +41,7 @@
             <swiper-slide v-for="(item, index) in testimonyData">
               <div
                 :key="index"
-                class="w-full flex flex-col items-center justify-center px-2 py-4 rounded-xl overflow-hidden"
+                class="w-full flex flex-col items-center justify-center px-2 py-4 border border-primary shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 rounded-xl overflow-hidden"
               >
                 <img :src="item.headImage" :alt="item.title" class="w-full" />
                 
