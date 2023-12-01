@@ -17,7 +17,7 @@
         <div
           class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5"
         >
-          <div class="w-full flex flex-col items-start justify-start gap-3">
+          <div v-for="feature in featureData" class="w-full flex flex-col items-start justify-start gap-3">
             <div class="flex items-center justify-start gap-3">
               <img src="" alt="">
             </div>
@@ -28,4 +28,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { featureData } from '../constant';
+</script>
