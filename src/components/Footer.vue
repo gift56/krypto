@@ -12,7 +12,7 @@ const links = [
 const termlinks = [
   "Terms of use",
   "Terms of conditions",
-  "CoinFlip Financial Privacy Notice",
+  "Privecy policy",
   "CoinFlip Terms of Service",
   "CoinFlip Trade Desk Terms of Service",
 ];
