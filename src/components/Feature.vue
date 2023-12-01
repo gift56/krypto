@@ -1,14 +1,49 @@
 <template>
   <section id="feature" class="w-full">
     <div class="container relative">
+      <img
+        v-motion
+        :initial="{ opacity: 0, scale: 0.5 }"
+        :visible="{
+          opacity: 1,
+          scale: 1,
+          transition: {
+            delay: 100,
+            duration: 500,
+          },
+        }"
+        src="/img/btcImage.png"
+        alt="bitcoin"
+        class="absolute top-0 md:top-[20%] right-0 w-10 h-10 md:w-20 md:h-20"
+      />
       <div
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
       >
         <div class="w-full flex flex-col items-center justify-center gap-4">
-          <h2 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
+          <h2
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 100,
+              },
+            }"
+            class="text-2xl font-bold text-center md:text-5xl lg:text-6xl"
+          >
             Attractive Features
           </h2>
           <p
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :visible="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 100,
+              },
+            }"
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
           >
             Windaful makes playing the UK's best raffles easy and fun.
