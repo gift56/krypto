@@ -17,9 +17,14 @@
           >
         </nav>
         <div
-          class="hidden lg:flex items-center justify-center gap-6 w-fit h-10 border-2 border-primary px-2"
+          class="hidden lg:flex items-center justify-center gap-6 w-fit h-10 border-2 border-primary px-4 rounded-full"
         >
-          <img src="/flagImage.png" alt="flag" />
+          <img
+            src="/img/flagImage.png"
+            alt="flag"
+            class="w-4 h-4 object-cover rounded-full"
+          />
+          <i></i>
         </div>
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
