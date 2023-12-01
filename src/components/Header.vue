@@ -49,6 +49,13 @@
           class="text-base font-normal uppercase"
           >{{ link.text }}</RouterLink
         >
+        <button
+          type="button"
+          class="flex items-center justify-center gap-6 w-fit h-10 border-2 border-primary px-3 rounded-full outline-none"
+        >
+          <img src="/img/flagImage.png" alt="flag" class="rounded-full" />
+          <i class="fa-solid fa-chevron-down text-sm"></i>
+        </button>
       </nav>
     </div>
   </header>
