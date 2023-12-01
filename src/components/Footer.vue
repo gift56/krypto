@@ -63,7 +63,7 @@
                 class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2"
               ></div>
               <p class="text-sm font-normal text-white/60">
-                We don’t sell your email and spam
+                {{ `We don’t sell your email and spam` }}
               </p>
             </div>
           </div>
