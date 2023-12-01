@@ -6,12 +6,12 @@
       >
         <div class="w-full flex flex-col items-center justify-center gap-4">
           <h2 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
-            How to Trade With Krypto
+            Attractive Features
           </h2>
           <p
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
           >
-            Tincidunt id nibh orci nibh just nulla elementum, sed vel.
+            Windaful makes playing the UK's best raffles easy and fun.
           </p>
         </div>
       </div>
