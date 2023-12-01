@@ -14,6 +14,5 @@ const termlinks = [
   "Terms of conditions",
   "Privecy policy",
   "Cookie policy",
-  
 ];
 </script>
