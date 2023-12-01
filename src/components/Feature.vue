@@ -55,13 +55,13 @@
           <div
             v-for="(feature, index) in featureData"
             v-motion
-            :initial="{ opacity: 0, scale: 0, y: 50 }"
+            :initial="{ opacity: 0, scale: 0, y: 150 }"
             :visible="{
               opacity: 1,
               scale: 1,
               y: 0,
               transition: {
-                delay: 100 * index,
+                delay: 150 * index,
               },
             }"
             class="w-full flex flex-col items-start justify-start gap-3"
