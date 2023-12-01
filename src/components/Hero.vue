@@ -10,6 +10,7 @@
         <p class="text-lg font-normal text-center">Crypto Market Starts in</p>
         <div>
           <CountdownTimer targetTime="2023-12-17T23:59:59" />
+          
         </div>
         <div class="flex items-center justify-center gap-3 md:gap-4">
           <button
