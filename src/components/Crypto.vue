@@ -24,9 +24,9 @@
           >
             <div
               :key="index"
-              class="flex flex-col md:flex-row items-start justify-start gap-5"
+              class="flex flex-col lg:flex-row items-start justify-start gap-5"
             >
-              <img :src="analysis.image" :alt="analysis.headline" />
+              <img :src="analysis.image" :alt="analysis.headline" class="w-full" />
               <div class="flex flex-col items-start justify-start gap-5">
                 <h3 class="text-xl font-medium md:text-2xl">
                   {{ analysis.headline }}
