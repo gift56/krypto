@@ -51,9 +51,14 @@
         class="absolute top-0 md:top-[20%] left-0 w-10 h-10 md:w-20 md:h-20"
       />
       <img
-        src="/img/btcImage.png"
-        alt="bitcoin"
-        class="absolute top-0 md:top-[20%] left-0 w-10 h-10 md:w-20 md:h-20"
+        src="/img/liteCoin.png"
+        alt="litecoin"
+        class="absolute top-[20%] md:top-[35%] right-0 w-10 h-10 md:w-32 md:h-32"
+      />
+      <img
+        src="/img/moneroCoin.png"
+        alt="litecoin"
+        class="absolute top-[90%] right-0 w-10 h-10"
       />
     </div>
   </section>
