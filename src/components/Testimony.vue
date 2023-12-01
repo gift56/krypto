@@ -58,7 +58,10 @@
                     :alt="item.profession"
                     class="w-12 h-12 rounded-full"
                   />
-                  <h4 class="">{{ item.profession }}</h4>
+                  <h4 class="text-base text-center mt-2 md:text-lg lg:text-xl">
+                    {{ item.username }}
+                  </h4>
+                  <h6 class="">{{ item.profession }}</h6>
                 </div>
               </div>
             </swiper-slide>
