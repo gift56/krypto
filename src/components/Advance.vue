@@ -6,7 +6,7 @@
       <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
         <h1
           v-motion
-          :initial="{ opacity: 0, y: 50 }"
+          :initial="{ opacity: 0, y: 150 }"
           :visible="{
             opacity: 1,
             y: 0,
@@ -22,12 +22,13 @@
           <RouterLink to="/"
             ><img
               v-motion
-              :initial="{ opacity: 0, scale: 0 }"
+              :initial="{ opacity: 0, scale: 0.5 }"
               :visible="{
                 opacity: 1,
                 scale: 1,
                 transition: {
-                  delay: 100 * index,
+                  delay: 100,
+                  duration: 500,
                 },
               }"
               src="/img/googlePlay.png"
@@ -36,12 +37,13 @@
           <RouterLink to="/"
             ><img
               v-motion
-              :initial="{ opacity: 0, scale: 0 }"
+              :initial="{ opacity: 0, scale: 0.5 }"
               :visible="{
                 opacity: 1,
                 scale: 1,
                 transition: {
-                  delay: 100 * index,
+                  delay: 100,
+                  duration: 500,
                 },
               }"
               src="/img/appleStore.png"
