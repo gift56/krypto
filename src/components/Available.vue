@@ -2,6 +2,4 @@
   <section>Available</section>
 </template>
 
-<script>
-export default {};
-</script>
+<script></script>
