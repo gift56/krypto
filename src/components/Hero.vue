@@ -34,9 +34,15 @@
           <div
             class="w-full flex flex-wrap items-center justify-center md:flex-nowrap gap-6"
           >
-            <div class="flex items-center justify-start gap-2">
-              <img src="" alt="" />
-              <span class="text-lg font-normal md:text-xl"></span>
+            <div
+              v-for="coin in heroCoins"
+              :key="coin.text"
+              class="flex items-center justify-start gap-2"
+            >
+              <img :src="coin.img" :alt="coin.text" />
+              <span class="text-lg font-normal md:text-xl">{{
+                coin.text
+              }}</span>
             </div>
           </div>
         </div>
@@ -47,4 +53,5 @@
 
 <script setup>
 import CountdownTimer from "./CountdownTimer.vue";
+import { heroCoins } from "../constant";
 </script>
