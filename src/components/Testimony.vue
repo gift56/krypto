@@ -11,9 +11,9 @@
           duration: 500,
         },
       }"
-      src="/img/btcImage.png"
+      src="/img/moneroCoin.png"
       alt="bitcoin"
-      class="absolute top-0 md:top-[20%] left-[10%] w-10 h-10 md:w-20 md:h-20"
+      class="absolute top-0 left-[5%] w-10 h-10 md:w-14 md:h-14"
     />
     <div class="container">
       <div

@@ -6,7 +6,7 @@
       <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
         <h1
           v-motion
-          :initial="{ opacity: 0, y: 150 }"
+          :initial="{ opacity: 0, y: 50 }"
           :visible="{
             opacity: 1,
             y: 0,
