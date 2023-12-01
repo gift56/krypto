@@ -15,22 +15,22 @@
             placerat nam ut. Pellentesque sit id tempor turpis.
           </p>
         </div>
-      </div>
-      <div class="w-full flex flex-col gap-6 lg:flex-row items-start">
-        <div class="w-full flex flex-col items-start justify-start gap-6">
-          <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
-            Company
-          </h3>
-          <nav class="w-full flex flex-col items-start justify-start gap-4">
-            <RouterLink
-              v-for="(text, index) in links"
-              :key="index"
-              :to="text.to"
-              class="cursor-pointer text-sm font-normal text-gray1"
-            >
-              {{ text.text }}
-            </RouterLink>
-          </nav>
+        <div class="w-full flex flex-col gap-6 lg:flex-row items-start">
+          <div class="w-full flex flex-col items-start justify-start gap-6">
+            <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
+              Company
+            </h3>
+            <nav class="w-full flex flex-col items-start justify-start gap-4">
+              <RouterLink
+                v-for="(text, index) in links"
+                :key="index"
+                :to="text.to"
+                class="cursor-pointer text-sm font-normal text-gray1"
+              >
+                {{ text.text }}
+              </RouterLink>
+            </nav>
+          </div>
         </div>
       </div>
     </div>
