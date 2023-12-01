@@ -20,26 +20,32 @@
         </h1>
         <div class="flex items-center justify-center gap-3 md:gap-4">
           <RouterLink to="/"
-            ><img v-motion
-                :initial="{ opacity: 0, scale: 0 }"
-                :visible="{
-                  opacity: 1,
-                  scale: 1,
-                  transition: {
-                    delay: 100 * index,
-                  },
-                }" src="/img/googlePlay.png" alt="googleplay"
+            ><img
+              v-motion
+              :initial="{ opacity: 0, scale: 0 }"
+              :visible="{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  delay: 100 * index,
+                },
+              }"
+              src="/img/googlePlay.png"
+              alt="googleplay"
           /></RouterLink>
           <RouterLink to="/"
-            ><img v-motion
-                :initial="{ opacity: 0, scale: 0 }"
-                :visible="{
-                  opacity: 1,
-                  scale: 1,
-                  transition: {
-                    delay: 100 * index,
-                  },
-                }"src="/img/appleStore.png" alt="applestore"
+            ><img
+              v-motion
+              :initial="{ opacity: 0, scale: 0 }"
+              :visible="{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  delay: 100 * index,
+                },
+              }"
+              src="/img/appleStore.png"
+              alt="applestore"
           /></RouterLink>
         </div>
       </div>
