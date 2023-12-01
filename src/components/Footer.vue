@@ -22,13 +22,14 @@
             Company
           </h3>
           <nav class="w-full flex flex-col items-start justify-start gap-4">
-            <li
+            <RouterLink
               v-for="(text, index) in links"
               :key="index"
+              :to="text.to"
               class="cursor-pointer text-sm font-normal text-gray1"
             >
               {{ text.text }}
-            </li>
+            </RouterLink>
           </nav>
         </div>
       </div>
