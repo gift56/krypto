@@ -18,7 +18,7 @@
       </div>
       <div class="w-full flex flex-col gap-6 lg:flex-row items-start">
         <div class="w-full flex flex-col items-start justify-start gap-6">
-          <h3 class="text-sm font-bold text-white">Company</h3>
+          <h3 class="text-sm font-bold text-primary">Company</h3>
           <ul class="w-full flex flex-col items-start justify-start gap-4">
             <li
               v-for="(text, index) in links"
