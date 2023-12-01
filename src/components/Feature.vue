@@ -14,8 +14,14 @@
             Windaful makes playing the UK's best raffles easy and fun.
           </p>
         </div>
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5">
-          
+        <div
+          class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5"
+        >
+          <div class="w-full flex flex-col items-start justify-start gap-3">
+            <div class="flex items-center justify-start gap-3">
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
