@@ -30,7 +30,7 @@
           </button>
         </div>
         <div class="w-full flex flex-col items-center justify-center gap-3">
-          
+          <h4>We accept</h4>
         </div>
       </div>
     </div>
