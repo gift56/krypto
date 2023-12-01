@@ -1,5 +1,5 @@
 <template>
-  <footer class="">
+  <footer class="w-full relative">
 
   </footer>
 </template>
