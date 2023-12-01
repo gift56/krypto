@@ -24,7 +24,7 @@
           </button>
           <button
             type="button"
-            class="rounded-full w-fit px-6 py-4 outline-none border-2 border-primary text-white bg-primary text-base font-bold uppercase hover:bg-primary/60 transition-all duration-300"
+            class="rounded-full w-fit px-6 py-4 outline-none border-2 border-primary text-white bg-[#160e3380] text-base font-bold uppercase hover:bg-primary/60 transition-all duration-300"
           >
             Trade crypto
           </button>
