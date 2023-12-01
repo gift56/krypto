@@ -44,7 +44,7 @@
                 class="w-full flex flex-col gap-8 items-center justify-center px-2 py-4 border border-primary shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 rounded-xl h-[450px] overflow-hidden"
               >
                 <img src="/icon/quotesIcon.png" alt="quotes" />
-                <p class="">
+                <p class="text-base text-white/50 font-normal">
                   Tincidunt id nibh orci nibh justo. Purus et turpis nulla
                   elementum, sed vel.
                 </p>
