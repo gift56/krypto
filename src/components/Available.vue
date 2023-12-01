@@ -14,38 +14,48 @@
             Tincidunt id nibh orci nibh just nulla elementum, sed vel.
           </p>
         </div>
-        <swiper
-          :slidesPerView="3"
-          :navigation="true"
-          :modules="modules"
-          class="mySwiper"
-        >
-          <swiper-slide v-for="(item, index) in cryptoSliderData">
-            <div
-              :key="index"
-              class="w-full flex flex-col items-start justify-start rounded-xl overflow-hidden"
-            >
-              <img :src="item.headImage" :alt="item.title" />
+        <div class="w-full">
+          <swiper
+            :slidesPerView="3"
+            :navigation="true"
+            :spaceBetween="30"
+            :modules="modules"
+            class="mySwiper"
+          >
+            <swiper-slide v-for="(item, index) in cryptoSliderData">
               <div
-                class="bg-white w-full flex flex-col items-start justify-start gap-10 p-3"
+                :key="index"
+                class="w-full flex flex-col items-start justify-start rounded-xl overflow-hidden"
               >
-                <div>
-                  <h3 class="text-xl font-medium text-bodybg md:text-2xl"></h3>
-                  <p
-                    class="text-base font-normal md:text-lg text-bodybg/50"
-                  ></p>
-                </div>
-                <div class="w-full flex items-center justify-between gap-5">
-                  <h2 class="text-2xl font-bold text-primary uppercase"></h2>
-                  <button
-                    type="button"
-                    class="outline-none w-fit px-2 py-2 rounded-full bg-primary border border-primary bg-primary/60 transition-all duration-300 text-base font-bold"
-                  ></button>
+                <img :src="item.headImage" :alt="item.title" />
+                <div
+                  class="bg-white w-full flex flex-col items-start justify-start gap-10 p-3"
+                >
+                  <div>
+                    <h3 class="text-xl font-medium text-bodybg md:text-2xl">
+                      {{ item.title }}
+                    </h3>
+                    <p class="text-base font-normal md:text-lg text-bodybg/50">
+                      Tincidunt id nibh orci nibh justo. Purus et turpis nulla
+                      elementum, sed vel.
+                    </p>
+                  </div>
+                  <div class="w-full flex items-center justify-between gap-5">
+                    <h2 class="text-2xl font-bold text-primary uppercase">
+                      {{ item.price }}
+                    </h2>
+                    <button
+                      type="button"
+                      class="outline-none w-fit px-2 py-2 rounded-full bg-primary border border-primary hover:bg-primary/60 transition-all duration-300 text-base font-bold"
+                    >
+                      Trade Now
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </swiper-slide>
-        </swiper>
+            </swiper-slide>
+          </swiper>
+        </div>
       </div>
     </div>
   </section>
@@ -59,6 +69,11 @@ import "swiper/css/navigation";
 import { cryptoSliderData } from "../constant";
 
 export default {
+  data() {
+    return {
+      cryptoSliderData,
+    };
+  },
   components: {
     Swiper,
     SwiperSlide,
@@ -67,9 +82,6 @@ export default {
     return {
       modules: [Navigation],
     };
-  },
-  data() {
-    cryptoSliderData;
   },
 };
 </script>
