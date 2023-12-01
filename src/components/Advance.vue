@@ -7,10 +7,6 @@
         <h1 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
           Most advanced crypto trading platfrom ever!
         </h1>
-        
-        <div>
-          <CountdownTimer targetTime="2023-12-17T23:59:59" />
-        </div>
         <div class="flex items-center justify-center gap-3 md:gap-4">
           <button
             type="button"
