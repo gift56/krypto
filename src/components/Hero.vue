@@ -9,7 +9,7 @@
             opacity: 1,
             y: 0,
             transition: {
-              delay: 150,
+              delay: 50,
             },
           }"
           class="text-3xl font-bold text-center md:text-5xl lg:text-7xl xl:text-[80px] xl:leading-[normal] xl:max-w-[730px]"
@@ -22,12 +22,30 @@
         </div>
         <div class="flex items-center justify-center gap-3 md:gap-4">
           <button
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :enter="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 50,
+              },
+            }"
             type="button"
             class="rounded-full w-fit px-3 md:px-6 py-4 outline-none border-2 border-primary text-white bg-primary text-sm sm:text-base font-bold uppercase hover:bg-primary/60 transition-all duration-300"
           >
             Download app
           </button>
           <button
+            v-motion
+            :initial="{ opacity: 0, y: 50 }"
+            :enter="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                delay: 50,
+              },
+            }"
             type="button"
             class="rounded-full w-fit px-3 md:px-6 py-4 outline-none border-2 border-primary text-white bg-[#160e3380] text-sm sm:text-base font-bold uppercase hover:bg-primary/60 transition-all duration-300"
           >
@@ -37,7 +55,19 @@
         <div
           class="w-full flex flex-col items-center justify-center gap-3 pb-6"
         >
-          <h4 class="text-lg font-medium text-center uppercase">We accept</h4>
+          <h4
+            v-motion
+            :initial="{ opacity: 0 }"
+            :enter="{
+              opacity: 1,
+              transition: {
+                delay: 100,
+              },
+            }"
+            class="text-lg font-medium text-center uppercase"
+          >
+            We accept
+          </h4>
           <div
             class="w-full flex flex-wrap items-center justify-center md:flex-nowrap gap-6"
           >
