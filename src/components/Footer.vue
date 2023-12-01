@@ -45,6 +45,20 @@
               </li>
             </ul>
           </div>
+          <div class="w-full flex flex-col items-start justify-start gap-6">
+            <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
+              Newsletter
+            </h3>
+            <ul class="w-full flex flex-col items-start justify-start gap-4">
+              <li
+                v-for="(text, index) in termlinks"
+                :key="index"
+                class="cursor-pointer text-base md:text-lg font-normal hover:underline transition-all duration-300"
+              >
+                {{ text }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
