@@ -2,4 +2,4 @@
   <section>Advance</section>
 </template>
 
-<script></script>
+<script setup></script>
