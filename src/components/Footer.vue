@@ -13,7 +13,7 @@ const termlinks = [
   "Terms of use",
   "Terms of conditions",
   "Privecy policy",
-  "CoinFlip Terms of Service",
+  "Cookie policy",
   "CoinFlip Trade Desk Terms of Service",
 ];
 </script>
