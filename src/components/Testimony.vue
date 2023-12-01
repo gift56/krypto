@@ -30,6 +30,21 @@
       alt="bitcoin"
       class="absolute top-[95%] left-[5%] w-10 h-10 md:w-20 md:h-20"
     />
+    <img
+      v-motion
+      :initial="{ opacity: 0, scale: 0.5 }"
+      :visible="{
+        opacity: 1,
+        scale: 1,
+        transition: {
+          delay: 200,
+          duration: 500,
+        },
+      }"
+      src="/img/etheriumCoin.png"
+      alt="etheriumCoin"
+      class="absolute top-[100%] right-0 w-14 h-14 md:w-32 md:h-32"
+    />
     <div class="container">
       <div
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
