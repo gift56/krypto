@@ -28,6 +28,10 @@
               prevEl: '.custom-prev',
               nextEl: '.custom-next',
             }"
+            :autoplay="{
+              delay: 2500,
+              disableOnInteraction: false,
+            }"
             :spaceBetween="getSpaceBetween()"
             :modules="modules"
             class="mySwiper"

@@ -12,8 +12,8 @@ module.exports = {
         stephoverShad: "0px 0px 40px 0px rgba(239, 68, 59, 0.40)",
       },
       backgroundImage: {
-        herobg: "url(./public/img/heroBg.png)",
-        advancebg: "url(./public/img/advanceBg.png)",
+        herobg: "url(/img/heroBg.png)",
+        advancebg: "url(/img/advanceBg.png)",
       },
     },
   },
