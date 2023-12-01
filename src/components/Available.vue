@@ -24,7 +24,17 @@
             <div
               class="bg-white w-full flex flex-col items-start justify-start gap-10 p-3"
             >
-              <h3 class="text-xl font-medium text-bodybg md:text-2xl"></h3>
+              <div>
+                <h3 class="text-xl font-medium text-bodybg md:text-2xl"></h3>
+                <p class="text-base font-normal md:text-lg text-bodybg/50"></p>
+              </div>
+              <div class="w-full flex items-center justify-between gap-5">
+                <h2 class="text-2xl font-bold text-primary uppercase"></h2>
+                <button
+                  type="button"
+                  class="outline-none w-fit px-2 py-2 rounded-full bg-primary border border-primary bg-primary/60 transition-all duration-300 text-base font-bold"
+                ></button>
+              </div>
             </div>
           </div>
         </div>
