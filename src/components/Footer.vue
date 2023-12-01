@@ -97,7 +97,7 @@
             Contact Us
           </li>
         </ul>
-        <span>Copyright @ 2022 xpence</span>
+        <span class="text-sm font-normal">Copyright @ 2022 xpence</span>
       </div>
     </div>
   </footer>
