@@ -1,5 +1,20 @@
 <template>
   <section id="testimonial" class="w-full relative">
+    <img
+      v-motion
+      :initial="{ opacity: 0, scale: 0.5 }"
+      :visible="{
+        opacity: 1,
+        scale: 1,
+        transition: {
+          delay: 100,
+          duration: 500,
+        },
+      }"
+      src="/img/btcImage.png"
+      alt="bitcoin"
+      class="absolute top-0 md:top-[20%] left-[10%] w-10 h-10 md:w-20 md:h-20"
+    />
     <div class="container">
       <div
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
