@@ -11,7 +11,8 @@
           <p
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
           >
-            Windaful makes playing the UK's best raffles easy and fun.
+            Tincidunt id nibh orci nibh justo. Purus et turpis nulla elementum,
+            sed vel.
           </p>
         </div>
         <div
