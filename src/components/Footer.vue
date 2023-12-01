@@ -1,7 +1,9 @@
 <template>
   <footer class="w-full relative">
     <div class="container">
-      <div></div>
+      <div
+        class="w-full py-20 flex flex-col items-start justify-between md:flex-row gap-8"
+      ></div>
     </div>
   </footer>
 </template>
