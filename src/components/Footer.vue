@@ -119,4 +119,5 @@ const termlinks = [
   "Privecy policy",
   "Cookie policy",
 ];
+const socialIcons = ["fa-youtube", "fa-linkedin", "fa-facebook", "fa-bitcoin"];
 </script>
