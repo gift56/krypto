@@ -48,6 +48,9 @@
                   Tincidunt id nibh orci nibh justo. Purus et turpis nulla
                   elementum, sed vel.
                 </p>
+                <div class="w-full flex flex-col items-center justify-center text-center">
+                  <img src="" alt="">
+                </div>
               </div>
             </swiper-slide>
           </swiper>
