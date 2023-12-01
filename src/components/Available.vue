@@ -1,6 +1,6 @@
 <template>
-  <section class="w-full">
-    <div class="container relative">
+  <section class="w-full relative">
+    <div class="container">
       <div
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
       >
@@ -15,9 +15,19 @@
           </p>
         </div>
         <div class="w-full">
+          <div
+            class=".custom-prev' w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 left-[2%] top-[50%] cursor-pointer"
+            @click="goPrev"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </div>
+
           <swiper
             :slidesPerView="isMobile ? 1 : 3"
-            :navigation="true"
+            :navigation="{
+              prevEl: '.custom-prev',
+              nextEl: '.custom-next',
+            }"
             :spaceBetween="30"
             :modules="modules"
             class="mySwiper"
@@ -55,6 +65,12 @@
               </div>
             </swiper-slide>
           </swiper>
+          <div
+          class=".custom-next w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 right-[2%] top-[50%] cursor-pointer"
+            @click="goNext"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
       </div>
     </div>
