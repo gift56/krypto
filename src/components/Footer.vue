@@ -97,6 +97,7 @@
             Contact Us
           </li>
         </ul>
+        <span>Copyright @ 2022 xpence</span>
       </div>
     </div>
   </footer>
