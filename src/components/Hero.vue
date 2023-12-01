@@ -50,6 +50,11 @@
         alt="bitcoin"
         class="absolute top-0 md:top-[20%] left-0 w-10 h-10 md:w-20 md:h-20"
       />
+      <img
+        src="/img/btcImage.png"
+        alt="bitcoin"
+        class="absolute top-0 md:top-[20%] left-0 w-10 h-10 md:w-20 md:h-20"
+      />
     </div>
   </section>
 </template>
