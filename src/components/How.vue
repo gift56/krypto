@@ -12,8 +12,8 @@
             duration: 500,
           },
         }"
-        src="/img/liteCoin.png"
-        alt="litecoin"
+        src="/img/etheriumCoin.png"
+        alt="etheriumCoin"
         class="absolute top-0 left-0 w-14 h-14 md:w-32 md:h-32"
       />
       <div
