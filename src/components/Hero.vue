@@ -13,7 +13,7 @@
         </h1>
         <p class="text-lg font-normal text-center">Crypto Market Starts in</p>
         <div>
-          <CountdownTimer targetTime="" />
+          <CountdownTimer targetTime="2023-12-17T23:59:59" />
         </div>
       </div>
     </div>
