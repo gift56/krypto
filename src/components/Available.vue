@@ -16,7 +16,7 @@
         </div>
         <div class="w-full">
           <swiper
-            :slidesPerView="3"
+            :slidesPerView="isMobile ? 1 : 3"
             :navigation="true"
             :spaceBetween="30"
             :modules="modules"
@@ -72,6 +72,7 @@ export default {
   data() {
     return {
       cryptoSliderData,
+      isMobile: false,
     };
   },
   components: {
@@ -82,6 +83,19 @@ export default {
     return {
       modules: [Navigation],
     };
+  },
+  mounted() {
+    // Check if the device is mobile
+    this.isMobile = window.innerWidth <= 768;
+
+    // Listen for window resize events to update the isMobile variable
+    window.addEventListener("resize", this.updateIsMobile);
+  },
+  methods: {
+    // Method to update the isMobile variable on window resize
+    updateIsMobile() {
+      this.isMobile = window.innerWidth <= 768;
+    },
   },
 };
 </script>
