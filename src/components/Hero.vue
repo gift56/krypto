@@ -3,6 +3,15 @@
     <div class="container h-full flex items-center justify-center relative">
       <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
         <h1
+          v-motion
+          :initial="{ opacity: 0, y: -150 }"
+          :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              delay: 150,
+            },
+          }"
           class="text-3xl font-bold text-center md:text-5xl lg:text-7xl xl:text-[80px] xl:leading-[normal] xl:max-w-[730px]"
         >
           Next Generation Crypto Trading
