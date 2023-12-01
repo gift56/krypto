@@ -25,7 +25,6 @@
             <div :key="index" class="flex items-center justify-start gap-5">
               
             </div>
-           
           </div>
         </div>
       </div>
