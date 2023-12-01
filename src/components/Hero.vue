@@ -1,7 +1,11 @@
 <template>
-  <section class="w-full bg-herobg bg-no-repeat bg-center md:bg-cover">
+  <section
+    class="w-full bg-herobg bg-no-repeat bg-center md:bg-cover"
+  >
     <div class="container h-full flex items-center justify-center relative">
-      <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
+      <div
+        class="w-full flex items-center justify-center flex-col gap-8 py-14"
+      >
         <h1
           class="text-3xl font-bold text-center md:text-5xl lg:text-7xl xl:text-[80px] xl:leading-[normal] xl:max-w-[730px]"
         >
@@ -25,9 +29,7 @@
             Trade crypto
           </button>
         </div>
-        <div
-          class="w-full flex flex-col items-center justify-center gap-3 pb-6"
-        >
+        <div class="w-full flex flex-col items-center justify-center gap-3 pb-6">
           <h4 class="text-lg font-medium text-center uppercase">We accept</h4>
           <div
             class="w-full flex flex-wrap items-center justify-center md:flex-nowrap gap-6"
@@ -45,7 +47,6 @@
           </div>
         </div>
       </div>
-      <img />
     </div>
   </section>
 </template>
