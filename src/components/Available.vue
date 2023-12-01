@@ -1,5 +1,35 @@
 <template>
   <section id="crypto" class="w-full relative">
+    <img
+      v-motion
+      :initial="{ opacity: 0, scale: 0.5 }"
+      :visible="{
+        opacity: 1,
+        scale: 1,
+        transition: {
+          delay: 100,
+          duration: 700,
+        },
+      }"
+      src="/img/moneroCoin.png"
+      alt="litecoin"
+      class="absolute top-0 left-[5%] w-10 h-10"
+    />
+    <img
+      v-motion
+      :initial="{ opacity: 0, scale: 0.5 }"
+      :visible="{
+        opacity: 1,
+        scale: 1,
+        transition: {
+          delay: 200,
+          duration: 500,
+        },
+      }"
+      src="/img/liteCoin.png"
+      alt="litecoin"
+      class="absolute top-[90%] left-0 w-14 h-14 md:w-28 md:h-28"
+    />
     <div class="container">
       <div
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
