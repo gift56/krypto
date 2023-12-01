@@ -10,7 +10,7 @@
               Krypto
             </h2>
           </RouterLink>
-          <p class="text-base font-normal">
+          <p class="text-base font-normal md:text-lg">
             Massa blandit semper varius faucibus. Suspendisse viverra venenatis
             placerat nam ut. Pellentesque sit id tempor turpis.
           </p>
