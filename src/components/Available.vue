@@ -1,5 +1,9 @@
 <template>
-  <section class="w-full">Available</section>
+  <section class="w-full">
+    <div class="container relative">
+      
+    </div>
+  </section>
 </template>
 
 <script></script>
