@@ -29,7 +29,7 @@
               nextEl: '.custom-next',
             }"
             :autoplay="{
-              delay: 2500,
+              delay: 3500,
               disableOnInteraction: false,
             }"
             :spaceBetween="getSpaceBetween()"
@@ -84,7 +84,7 @@
 
 <script>
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { cryptoSliderData } from "../constant";
@@ -103,7 +103,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Navigation],
+      modules: [Navigation, Autoplay],
     };
   },
   mounted() {
