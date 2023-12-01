@@ -15,7 +15,7 @@
           </p>
         </div>
         <div
-          class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5"
+          class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-x-4 gap-y-8"
         >
           <div
             v-for="(feature, index) in featureData"
@@ -27,7 +27,7 @@
                 {{ feature.title }}
               </h2>
             </div>
-            <p class="">
+            <p class="text-lg md:text-2xl font-normal text-white/50">
               Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat et
               ornare risus.
             </p>
