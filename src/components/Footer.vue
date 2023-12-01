@@ -66,7 +66,7 @@
                   type="email"
                   placeholder="Enter your email"
                   required
-                  class="bg-red-500 w-full outline-none h-full "
+                  class="pl-2 w-full outline-none h-full font-hind text-base font-normal placeholder:text-[#aaa7a7] text-bodybg"
                 />
               </div>
               <p class="text-sm font-normal text-white/60">
