@@ -8,7 +8,7 @@
           Most advanced crypto trading platfrom ever!
         </h1>
         <div class="flex items-center justify-center gap-3 md:gap-4">
-          <img src="" alt="">
+          
         </div>
       </div>
     </div>
