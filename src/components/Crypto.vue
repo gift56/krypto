@@ -19,11 +19,11 @@
           class="w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-6"
         >
           <div
-            v-for="(testimony, index) in testimonyData"
+            v-for="(analysis, index) in analysisData"
             class="w-full flex flex-col items-start justify-start gap-3"
           >
-            <div :key="index" class="flex items-center justify-start gap-5">
-              
+            <div :key="index" class="flex flex-col md:flex-row items-start justify-start gap-5">
+              <img :src="analysis.image" :alt="analysis.headline">
             </div>
           </div>
         </div>
@@ -33,5 +33,5 @@
 </template>
 
 <script setup>
-import { testimonyData } from '../constant';
+import { analysisData } from '../constant';
 </script>
