@@ -10,7 +10,6 @@
         <p class="text-lg font-normal text-center">Crypto Market Starts in</p>
         <div>
           <CountdownTimer targetTime="2023-12-17T23:59:59" />
-          
         </div>
         <div class="flex items-center justify-center gap-3 md:gap-4">
           <button
@@ -46,7 +45,11 @@
           </div>
         </div>
       </div>
-      <img src="/img/btcImage.png" alt="bitcoin">
+      <img
+        src="/img/btcImage.png"
+        alt="bitcoin"
+        class="absolute top-0 md:top-[20%] left-0 w-10 h-10 md:w-20 md:h-20"
+      />
     </div>
   </section>
 </template>
