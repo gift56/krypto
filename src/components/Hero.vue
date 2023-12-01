@@ -11,9 +11,15 @@
         >
           Next Generation Crypto Trading
         </h1>
+        <p class="text-lg font-normal text-center">Crypto Market Starts in</p>
+        <div>
+          <CountdownTimer targetTime="" />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import CountdownTimer from "./CountdownTimer.vue";
+</script>
