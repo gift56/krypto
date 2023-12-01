@@ -2,4 +2,4 @@
   <section>Footer</section>
 </template>
 
-<script></script>
+<script setup></script>
