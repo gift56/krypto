@@ -16,7 +16,7 @@
         </div>
         <div class="w-full">
           <div
-            class=".custom-prev' w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 left-[2%] top-[50%] cursor-pointer"
+            class="custom-prev' w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 left-[2%] top-[50%] cursor-pointer"
             @click="goPrev"
           >
             <i class="fas fa-chevron-left"></i>
@@ -66,7 +66,7 @@
             </swiper-slide>
           </swiper>
           <div
-          class=".custom-next w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 right-[2%] top-[50%] cursor-pointer"
+          class="custom-next w-12 h-12 flex items-center justify-center rounded-full bg-primary/30 absolute z-10 right-[2%] top-[50%] cursor-pointer"
             @click="goNext"
           >
             <i class="fas fa-chevron-right"></i>
