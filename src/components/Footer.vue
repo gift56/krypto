@@ -5,7 +5,11 @@
         class="w-full py-20 flex flex-col items-start justify-between md:flex-row gap-8"
       >
         <div class="w-full flex flex-col items-start justify-start gap-6">
-          
+          <RouterLink to="/">
+            <h2 class="select-none text-center text-2xl font-bold text-primary">
+              Krypto
+            </h2>
+          </RouterLink>
         </div>
       </div>
     </div>
