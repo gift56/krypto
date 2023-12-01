@@ -102,6 +102,23 @@ export const testimonyData = [
     profession: "Crypto Analyst",
     userImage: "https://hypixel.net/attachments/rnavgv9-1-jpg.388730/",
   },
+  {
+    username: "Cameron Williamson",
+    profession: "FX Trader",
+    userImage:
+      "https://img.freepik.com/premium-photo/trader-trading-girl-woman-with-red-hair-sits-front-two-computer-monitors_885186-332.jpg",
+  },
+  {
+    username: "Bessie Cooper",
+    profession: "Stock Manager",
+    userImage:
+      "https://councils.forbes.com/profile/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Fcco-avatars%2F92fbf87e-4cac-4b56-a721-e91aa9d97bd4.png&w=384&q=75",
+  },
+  {
+    username: "Albert Flores",
+    profession: "Crypto Analyst",
+    userImage: "https://hypixel.net/attachments/rnavgv9-1-jpg.388730/",
+  },
 ];
 
 export const analysisData = [

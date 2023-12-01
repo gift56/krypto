@@ -61,7 +61,9 @@
                   <h4 class="text-base text-center mt-2 md:text-lg lg:text-xl">
                     {{ item.username }}
                   </h4>
-                  <h6 class="">{{ item.profession }}</h6>
+                  <h6 class="text-primary text-sm font-normal md:text-base">
+                    {{ item.profession }}
+                  </h6>
                 </div>
               </div>
             </swiper-slide>
