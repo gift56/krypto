@@ -1,6 +1,21 @@
 <template>
   <section id="how" class="w-full">
     <div class="container relative">
+      <img
+        v-motion
+        :initial="{ opacity: 0, scale: 0.5 }"
+        :enter="{
+          opacity: 1,
+          scale: 1,
+          transition: {
+            delay: 200,
+            duration: 500,
+          },
+        }"
+        src="/img/liteCoin.png"
+        alt="litecoin"
+        class="absolute top-0 left-0 w-14 h-14 md:w-32 md:h-32"
+      />
       <div
         class="w-full py-20 flex flex-col items-center justify-center gap-8 md:gap-12"
       >

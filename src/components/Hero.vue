@@ -112,7 +112,7 @@
         }"
         src="/img/liteCoin.png"
         alt="litecoin"
-        class="absolute top-[20%] md:top-[35%] right-0 w-10 h-10 md:w-32 md:h-32"
+        class="absolute top-[20%] md:top-[35%] right-0 w-14 h-14 md:w-32 md:h-32"
       />
       <img
         v-motion
