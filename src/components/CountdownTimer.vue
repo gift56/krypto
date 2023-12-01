@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-center gap-3 h-20 w-full md:w-[450px] bg-bodybg/50 rounded-full select-none"
+    class="flex items-center justify-center gap-3 h-20 w-full md:w-[400px] bg-bodybg/50 rounded-full select-none"
   >
     <div class="flex flex-col items-center justify-center text-center gap-1">
       <h3 class="text-2xl md:text-3xl font-medium text-primary">{{ days }}</h3>
