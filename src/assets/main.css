@@ -17,3 +17,7 @@ img {
   user-select: none;
   -webkit-user-drag: none;
 }
+::selection {
+  background-color: #ef443b;
+  color: white;
+}
