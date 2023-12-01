@@ -99,7 +99,7 @@
         </ul>
         <span class="text-sm font-normal">Copyright @ 2022 xpence</span>
         <div class="flex items-center justify-center gap-2">
-          <i></i>
+          <i v-for="icon in socialIcons" class="text-lg cursor-pointer fa-brands" :class="icon"></i>
         </div>
       </div>
     </div>
