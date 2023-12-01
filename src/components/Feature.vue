@@ -54,6 +54,7 @@
         >
           <div
             v-for="(feature, index) in featureData"
+            
             class="w-full flex flex-col items-start justify-start gap-3"
           >
             <div :key="index" class="flex items-center justify-start gap-5">
