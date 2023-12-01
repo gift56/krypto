@@ -98,6 +98,9 @@
           </li>
         </ul>
         <span class="text-sm font-normal">Copyright @ 2022 xpence</span>
+        <div class="flex items-center justify-center gap-2">
+          <i></i>
+        </div>
       </div>
     </div>
   </footer>
