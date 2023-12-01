@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full bg-advancebg bg-no-repeat bg-center md:bg-cover md:h-screen"
+    class="w-full bg-advancebg bg-no-repeat bg-fixed bg-center md:bg-cover md:h-screen"
   >
     <div class="container h-full flex items-center justify-center relative">
       <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
