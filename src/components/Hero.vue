@@ -46,6 +46,16 @@
         </div>
       </div>
       <img
+        v-motion
+        :initial="{ opacity: 0, scale: 0.5 }"
+        :enter="{
+          opacity: 1,
+          scale: 1,
+          transition: {
+            delay: 100,
+            duration: 500,
+          },
+        }"
         src="/img/btcImage.png"
         alt="bitcoin"
         class="absolute top-0 md:top-[20%] left-0 w-10 h-10 md:w-20 md:h-20"
