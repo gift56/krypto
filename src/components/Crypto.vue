@@ -22,8 +22,16 @@
             v-for="(analysis, index) in analysisData"
             class="w-full flex flex-col items-start justify-start gap-3"
           >
-            <div :key="index" class="flex flex-col md:flex-row items-start justify-start gap-5">
-              <img :src="analysis.image" :alt="analysis.headline">
+            <div
+              :key="index"
+              class="flex flex-col md:flex-row items-start justify-start gap-5"
+            >
+              <img :src="analysis.image" :alt="analysis.headline" />
+              <div class="flex flex-col items-start justify-start gap-5">
+                <h3 class="text-xl font-medium md:text-2xl">
+                  {{ analysis.headline }}
+                </h3>
+              </div>
             </div>
           </div>
         </div>
@@ -33,5 +41,5 @@
 </template>
 
 <script setup>
-import { analysisData } from '../constant';
+import { analysisData } from "../constant";
 </script>
