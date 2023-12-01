@@ -1,6 +1,8 @@
 <template>
-  <section class="w-full relative">
-
+  <section class="w-full">
+    <div class="container">
+      
+    </div>
   </section>
 </template>
 
