@@ -1,11 +1,7 @@
 <template>
   <section class="w-full relative">
-    <div class="container">
-      
-    </div>
+    <div class="container"></div>
   </section>
 </template>
 
-<script>
-export default {};
-</script>
+<script></script>
