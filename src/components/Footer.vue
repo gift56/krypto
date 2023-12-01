@@ -82,8 +82,21 @@
           </div>
         </div>
       </div>
-      <div class="w-full mt-7 flex flex-wrap gap-4 md:flex-nowrap items-center justify-center md:justify-between">
-
+      <div
+        class="w-full mt-7 flex flex-wrap gap-4 md:flex-nowrap items-center justify-center md:justify-between py-4 border-t-2 border-white/20"
+      >
+        <ul class="flex items-center gap-2">
+          <li
+            class="cursor-pointer text-sm font-normal hover:underline transition-all duration-300"
+          >
+            Privacy & Terms
+          </li>
+          <li
+            class="cursor-pointer text-sm font-normal hover:underline transition-all duration-300"
+          >
+            Contact Us
+          </li>
+        </ul>
       </div>
     </div>
   </footer>
