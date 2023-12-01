@@ -10,6 +10,7 @@
               Krypto
             </h2>
           </RouterLink>
+          <p></p>
         </div>
       </div>
     </div>
