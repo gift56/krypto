@@ -27,7 +27,7 @@
               :key="index"
               class="cursor-pointer text-sm font-normal text-gray1"
             >
-              {{ text }}
+              {{ text.text }}
             </li>
           </ul>
         </div>
