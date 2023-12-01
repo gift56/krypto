@@ -14,16 +14,24 @@
             Tincidunt id nibh orci nibh just nulla elementum, sed vel.
           </p>
         </div>
-        <div class="w-full flex flex-col md:flex-row items-center justify-center gap-6">
+        <div
+          class="w-full flex flex-col md:flex-row items-center justify-center gap-6"
+        >
           <div class="w-full md:flex-1">
-            <img src="/img/howImage.png" alt="how" class="md:h-[500px]" />
+            <img src="/img/howImage.png" alt="how" class="lg:h-[500px]" />
           </div>
           <div
             class="w-full md:flex-1 flex flex-col items-center md:items-start justify-start gap-5"
           >
-            <h3 class="text-2xl font-bold text-primary md:text-3xl lg:text-4xl">Steps to trade</h3>
+            <h3 class="text-2xl font-bold text-primary md:text-3xl lg:text-4xl">
+              Steps to trade
+            </h3>
             <div class="flex flex-col items-start justify-start gap-6 w-full">
-
+              <div
+                class="w-full md:w-[284px] h-[66px] flex items-center justify-start gap-4 bg-bodybg shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 cursor-pointer rounded-full"
+              >
+                <span></span>
+              </div>
             </div>
           </div>
         </div>
