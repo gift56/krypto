@@ -16,6 +16,9 @@
           </p>
         </div>
       </div>
+      <div class="w-full flex flex-col gap-6 lg:flex-row items-start">
+        
+      </div>
     </div>
   </footer>
 </template>
