@@ -18,7 +18,9 @@
           </p>
         </div>
         <div class="w-full flex flex-col gap-6 lg:flex-row items-start">
-          <div class="w-full md:w-[60%] flex flex-col items-start justify-start gap-6">
+          <div
+            class="w-full md:w-[60%] flex flex-col items-start justify-start gap-6"
+          >
             <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
               Company
             </h3>
@@ -54,12 +56,15 @@
               Newsletter
             </h3>
             <div class="flex flex-col items-start justify-start w-full gap-3">
-              <p class="text-sm md:text-base text-white/50">
+              <p class="text-sm md:text-base font-normal text-white/50">
                 Over 25000 people have subscribed
               </p>
-              <div class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2">
-
-              </div>
+              <div
+                class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2"
+              ></div>
+              <p class="text-sm font-normal text-white/60">
+                We don’t sell your email and spam
+              </p>
             </div>
           </div>
         </div>
