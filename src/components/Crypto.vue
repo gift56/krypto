@@ -19,7 +19,7 @@
           class="w-full grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-6"
         >
           <div
-            v-for="(feature, index) in featureData"
+            v-for="(feature, index) in testimonyData"
             class="w-full flex flex-col items-start justify-start gap-3"
           >
             <div :key="index" class="flex items-center justify-start gap-5">
@@ -39,4 +39,6 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { testimonyData } from '../constant';
+</script>
