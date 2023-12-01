@@ -5,9 +5,9 @@
     <div class="container h-full flex items-center justify-center relative">
       <div class="w-full flex items-center justify-center flex-col gap-8 py-14">
         <h1 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
-          Next Generation Crypto Trading
+          Most advanced crypto trading platfrom ever!
         </h1>
-        <p class="text-lg font-normal text-center">Crypto Market Starts in</p>
+        
         <div>
           <CountdownTimer targetTime="2023-12-17T23:59:59" />
         </div>
