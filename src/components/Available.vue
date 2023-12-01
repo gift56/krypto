@@ -1,5 +1,5 @@
 <template>
-  <section>Available</section>
+  <section class="w-full">Available</section>
 </template>
 
 <script></script>
