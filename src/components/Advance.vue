@@ -12,7 +12,7 @@
             ><img src="/img/googlePlay.png" alt="googleplay"
           /></RouterLink>
           <RouterLink to="/"
-            ><img src="/img/googlePlay.png" alt="googleplay"
+            ><img src="/img/appleStore.png" alt="googleplay"
           /></RouterLink>
         </div>
       </div>
