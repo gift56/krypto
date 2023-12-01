@@ -41,10 +41,10 @@
             <swiper-slide v-for="(item, index) in testimonyData">
               <div
                 :key="index"
-                class="w-full flex flex-col gap-8 items-center justify-center px-2 py-4 border border-primary shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 rounded-xl h-[450px] overflow-hidden"
+                class="w-full flex flex-col gap-8 items-center justify-center px-4 py-4 border border-primary shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 rounded-xl h-[450px] overflow-hidden"
               >
                 <img src="/icon/quotesIcon.png" alt="quotes" />
-                <p class="text-base text-white/50 font-normal md:text-lg">
+                <p class="text-base text-white/50 font-normal md:text-lg text-center">
                   Tincidunt id nibh orci nibh justo. Purus et turpis nulla
                   elementum, sed vel.
                 </p>
