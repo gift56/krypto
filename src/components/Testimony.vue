@@ -49,7 +49,7 @@
                   elementum, sed vel.
                 </p>
                 <div class="w-full flex flex-col items-center justify-center text-center">
-                  <img src="" alt="">
+                  <img :src="item.userImage" :alt="item.profession">
                 </div>
               </div>
             </swiper-slide>
