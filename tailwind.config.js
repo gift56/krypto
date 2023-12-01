@@ -15,6 +15,9 @@ module.exports = {
         herobg: "url(/img/heroBg.png)",
         advancebg: "url(/img/advanceBg.png)",
       },
+      fontFamily: {
+        hind: "'Hind Siliguri', sans-serif",
+      },
     },
   },
   plugins: [],

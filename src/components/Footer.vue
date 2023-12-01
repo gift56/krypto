@@ -60,9 +60,14 @@
                 Over 25000 people have subscribed
               </p>
               <div
-                class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2"
+                class="w-full bg-white h-[62px] rounded-full flex items-center justify-between px-2 overflow-hidden"
               >
-                <input type="email" placeholder="Enter your email" required />
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  required
+                  class="bg-red-500 w-full outline-none h-full "
+                />
               </div>
               <p class="text-sm font-normal text-white/60">
                 {{ `We don’t sell your email and spam` }}
