@@ -4,7 +4,7 @@
       <div
         class="w-full py-20 flex flex-col items-start justify-between md:flex-row gap-8"
       >
-        <div class="w-full flex flex-col items-start justify-start gap-6">
+        <div class="w-full lg:w-[50%] flex flex-col items-start justify-start gap-6">
           <RouterLink to="/">
             <h2 class="select-none text-center text-2xl font-bold text-primary">
               Krypto
@@ -49,15 +49,9 @@
             <h3 class="text-xl md:text-2xl font-medium text-primary uppercase">
               Newsletter
             </h3>
-            <ul class="w-full flex flex-col items-start justify-start gap-4">
-              <li
-                v-for="(text, index) in termlinks"
-                :key="index"
-                class="cursor-pointer text-base md:text-lg font-normal hover:underline transition-all duration-300"
-              >
-                {{ text }}
-              </li>
-            </ul>
+            <div class="flex flex-col items-start justify-start w-full gap-3">
+              <p class="text-sm md:text-base text-white/50">Over 25000 people have subscribed</p>
+            </div>
           </div>
         </div>
       </div>
