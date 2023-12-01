@@ -10,7 +10,7 @@ const links = [
   { to: "#testimonial", text: "Testimonial" },
 ];
 const termlinks = [
-  "CoinFlip Privacy Policy",
+  "Terms of use",
   "CoinFlip Biometrics Privacy Policy",
   "CoinFlip Financial Privacy Notice",
   "CoinFlip Terms of Service",
