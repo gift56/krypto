@@ -45,7 +45,6 @@
                 opacity: 1,
                 scale: 1,
                 transition: {
-                  delay: 100,
                   duration: 500,
                 },
               }"
@@ -57,13 +56,33 @@
           <div
             class="w-full md:flex-1 flex flex-col items-center md:items-start justify-start gap-5"
           >
-            <h3 class="text-2xl font-bold text-primary md:text-3xl lg:text-4xl">
+            <h3
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible="{
+                opacity: 1,
+                y: 0,
+                transition: {
+                  delay: 100,
+                },
+              }"
+              class="text-2xl font-bold text-primary md:text-3xl lg:text-4xl"
+            >
               Steps to trade
             </h3>
             <div class="flex flex-col items-start justify-start gap-6 w-full">
               <div
                 v-for="(step, index) in stepsData"
                 :key="index"
+                v-motion
+                :initial="{ opacity: 0, scale: 0 }"
+                :visible="{
+                  opacity: 1,
+                  scale: 1,
+                  transition: {
+                    delay: 100 * index,
+                  },
+                }"
                 class="w-full md:w-[284px] h-[66px] flex items-center justify-start gap-4 bg-bodybg shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 cursor-pointer rounded-full select-none px-4"
               >
                 <span
