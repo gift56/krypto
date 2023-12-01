@@ -10,25 +10,7 @@
         <div class="flex items-center justify-center gap-3 md:gap-4">
          
         </div>
-        <div
-          class="w-full flex flex-col items-center justify-center gap-3 pb-6"
-        >
-          <h4 class="text-lg font-medium text-center uppercase">We accept</h4>
-          <div
-            class="w-full flex flex-wrap items-center justify-center md:flex-nowrap gap-6"
-          >
-            <div
-              v-for="coin in heroCoins"
-              :key="coin.text"
-              class="flex items-center justify-start gap-2"
-            >
-              <img :src="coin.img" :alt="coin.text" />
-              <span class="text-lg font-normal md:text-xl">{{
-                coin.text
-              }}</span>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
