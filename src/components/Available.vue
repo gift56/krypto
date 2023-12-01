@@ -43,4 +43,7 @@
   </section>
 </template>
 
-<script></script>
+<script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+
+</script>
