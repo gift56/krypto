@@ -6,6 +6,9 @@
 const links = [
   { to: "#how", text: "How it works" },
   { to: "#crypto", text: "Cryptos" },
+  { to: "#crypto", text: "Cryptos" },
+  { to: "#crypto", text: "Cryptos" },
+  { to: "/", text: "Blogs" },
 ];
 const termlinks = [
   "CoinFlip Privacy Policy",
