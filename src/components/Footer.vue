@@ -68,6 +68,12 @@
                   required
                   class="pl-2 w-full outline-none h-full font-hind text-base font-normal placeholder:text-[#aaa7a7] text-bodybg"
                 />
+                <button
+                  type="button"
+                  class="rounded-full w-fit px-3 py-2 outline-none border-2 border-primary text-white bg-primary text-sm font-bold uppercase hover:bg-primary/60 transition-all duration-300"
+                >
+                  Subscribe
+                </button>
               </div>
               <p class="text-sm font-normal text-white/60">
                 {{ `We don’t sell your email and spam` }}
