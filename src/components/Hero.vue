@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full bg-herobg bg-no-repeat bg-center md:bg-cover transition-all duration-200"
+    class="w-full bg-herobg bg-no-repeat bg-center md:bg-cover"
   >
     <div class="container h-full flex items-center justify-center relative">
       <div
