@@ -2,6 +2,4 @@
   <section>Advance</section>
 </template>
 
-<script>
-
-</script>
+<script></script>
