@@ -1,6 +1,6 @@
 <template>
   <section
-    class="w-full md:h-screen bg-herobg bg-no-repeat bg-cover bg-fixed transition-all duration-200"
+    class="w-full md:h-screen bg-herobg bg-no-repeat bg-center md:bg-cover bg-fixed transition-all duration-200"
   >
     <div class="container h-full flex items-center justify-center relative">
       <div
@@ -15,6 +15,7 @@
         <div>
           <CountdownTimer targetTime="2023-12-17T23:59:59" />
         </div>
+
       </div>
     </div>
   </section>
