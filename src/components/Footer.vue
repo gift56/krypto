@@ -25,7 +25,7 @@
                 v-for="(text, index) in links"
                 :key="index"
                 :to="text.to"
-                class="cursor-pointer text-sm font-normal text-gray1"
+                class="cursor-pointer text-base md:text-lg font-normal hover:underline transition-all duration-300"
               >
                 {{ text.text }}
               </RouterLink>
