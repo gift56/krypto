@@ -11,6 +11,9 @@
           <RouterLink to="/"
             ><img src="/img/googlePlay.png" alt="googleplay"
           /></RouterLink>
+          <RouterLink to="/"
+            ><img src="/img/googlePlay.png" alt="googleplay"
+          /></RouterLink>
         </div>
       </div>
     </div>
