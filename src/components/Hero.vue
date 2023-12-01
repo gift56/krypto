@@ -30,7 +30,15 @@
           </button>
         </div>
         <div class="w-full flex flex-col items-center justify-center gap-3">
-          <h4>We accept</h4>
+          <h4 class="text-lg font-medium text-center uppercase">We accept</h4>
+          <div
+            class="w-full flex flex-wrap items-center justify-center md:flex-nowrap gap-6"
+          >
+            <div class="flex items-center justify-start gap-2">
+              <img src="" alt="" />
+              <span class="text-lg font-normal md:text-xl"></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
