@@ -1,5 +1,5 @@
 <template>
-  <section>How</section>
+  <section class=""></section>
 </template>
 
 <script setup></script>
