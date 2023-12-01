@@ -100,7 +100,7 @@ const navLinks = [
     text: "Cryptos",
   },
   {
-    href: "#features",
+    href: "#feature",
     text: "Features",
   },
   {
