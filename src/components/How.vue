@@ -2,6 +2,4 @@
   <section>How</section>
 </template>
 
-<script>
-export default {};
-</script>
+<script></script>
