@@ -12,20 +12,17 @@
             v-for="link in navLinks"
             :key="link.text"
             :to="link.href"
-            class="text-base font-normal uppercase"
+            class="text-base font-normal uppercase hover:text-primary transition-all duration-300"
             >{{ link.text }}</RouterLink
           >
         </nav>
-        <div
-          class="hidden lg:flex items-center justify-center gap-6 w-fit h-10 border-2 border-primary px-4 rounded-full"
+        <button
+          type="button"
+          class="hidden lg:flex items-center justify-center gap-6 w-fit h-10 border-2 border-primary px-3 rounded-full outline-none"
         >
-          <img
-            src="/img/flagImage.png"
-            alt="flag"
-            class="w-4 h-4 object-cover rounded-full"
-          />
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
+          <img src="/img/flagImage.png" alt="flag" class="rounded-full" />
+          <i class="fa-solid fa-chevron-down text-sm"></i>
+        </button>
         <span @click="toggleMenu" v-if="!isMenuOpen" class="lg:hidden text-2xl">
           <i class="fa-solid fa-bars"></i>
         </span>
