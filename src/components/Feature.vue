@@ -21,9 +21,16 @@
             v-for="(feature, index) in featureData"
             class="w-full flex flex-col items-start justify-start gap-3"
           >
-            <div :key="index" class="flex items-center justify-start gap-3">
-              <img src="" alt="" />
+            <div :key="index" class="flex items-center justify-start gap-5">
+              <img :src="feature.icon" :alt="feature.title" class="" />
+              <h2 class="text-xl font-medium md:text-2xl lg:text-3xl">
+                {{ feature.title }}
+              </h2>
             </div>
+            <p class="">
+              Eu tellus quam id sed ultrices. Integer nunc lectus nisi, erat et
+              ornare risus.
+            </p>
           </div>
         </div>
       </div>
