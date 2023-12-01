@@ -6,7 +6,7 @@
       >
         <div class="w-full flex flex-col items-center justify-center gap-4">
           <h2 class="text-2xl font-bold text-center md:text-5xl lg:text-6xl">
-            Attractive Features
+            Crypto Market Analysis
           </h2>
           <p
             class="text-lg font-normal text-center md:text-xl text-white/50 lg:text-2xl"
