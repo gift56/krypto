@@ -43,7 +43,7 @@
                 :key="index"
                 class="w-full flex flex-col items-center justify-center px-2 py-4 border border-primary shadow-stepShad hover:shadow-stephoverShad transition-all duration-300 rounded-xl h-[450px] overflow-hidden"
               >
-                <img :src="item.headImage" :alt="item.title" class="w-full" />
+                <img src="/icon/quotesIcon.png" alt="quotes" />
               </div>
             </swiper-slide>
           </swiper>
