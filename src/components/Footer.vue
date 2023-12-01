@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-const links = ["About", "Career", "Press", "News", "Merch"];
+const links = [{ to: "", text: "How it works" }];
 const termlinks = [
   "CoinFlip Privacy Policy",
   "CoinFlip Biometrics Privacy Policy",
