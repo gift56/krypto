@@ -1,6 +1,8 @@
 <template>
   <footer class="w-full relative">
-    <div class="container"></div>
+    <div class="container">
+      <div></div>
+    </div>
   </footer>
 </template>
 
